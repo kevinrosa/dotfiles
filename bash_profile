@@ -1,3 +1,11 @@
+# git
+git config --global user.email "kevin_rosa@uri.edu"
+git config --global user.name "Kevin Rosa"
+
+# bash warnings
+alias rm="rm -i"
+alias cp="cp -i"
+
 # ssh aliases
 alias awrey="ssh rosa@awrey.bw01.gso.uri.edu"
 alias ratelle="ssh rosa@ratelle.gso.uri.edu"
@@ -7,7 +15,6 @@ alias edison="ssh kanga@edison.nersc.gov"
 # up arrow to last-used commands
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
-
 
 # display "username@hostname:cwd"
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
