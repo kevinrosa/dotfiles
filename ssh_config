@@ -1,4 +1,4 @@
 Host *
-ControlMaster auto
-ControlPath ~/.ssh/connections/%h_%p_%r
+    ControlMaster auto
+    ControlPath ~/.ssh/connections/%h_%p_%r
 
