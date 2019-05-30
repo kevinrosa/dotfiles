@@ -37,7 +37,7 @@ alias ttgrizzly='scp kanga@wtrw.lanl.gov:gr-fe:/lustre/scratch2/turquoise/kanga/
 
 # matlab alias for ccs servers
 if [[ $(hostname -s) = ccscs* ]]; then
-    alias matlab="/ccs/opt/matlab-R2017b/bin/matlab"
+    alias matlab="/ccs/opt/matlab-R2017b/bin/matlab -nosplash"
 fi
 
 # git
