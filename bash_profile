@@ -35,6 +35,10 @@ alias ls='ls -GFh'
 alias ttnersc='scp kanga@edison.nersc.gov:/global/cscratch1/sd/kanga/trash/tar.tar ~/Downloads/.; tar xvf tar.tar; rm -f tar.tar'
 alias ttgrizzly='scp kanga@wtrw.lanl.gov:gr-fe:/lustre/scratch2/turquoise/kanga/trash/tar.tar ~/Downloads/.; tar xvf tar.tar; rm -f tar.tar'
 
+# matlab alias for ccs servers
+if [[ $(hostname -s) = ccscs* ]]; then
+    alias matlab="/ccs/opt/matlab-R2017b/bin/matlab"
+fi
 
 # git
 git config --global user.email "kevin_rosa@uri.edu"
