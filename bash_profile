@@ -20,6 +20,7 @@ alias ccs6='ssh -Y kanga@ccscs6'
 alias ccs7='ssh -Y kanga@ccscs7'
 alias ccs8='ssh -Y kanga@ccscs8'
 alias oscar='ssh krosa1@ssh.ccv.brown.edu'
+alias weekapaug='ssh lab@155.104.128.131.dhcp.uri.edu'
 alias uri='ssh kevin_rosa@ssh3.hac.uri.edu'
 
 # up arrow to last-used commands
